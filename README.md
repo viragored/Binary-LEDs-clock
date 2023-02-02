@@ -19,8 +19,8 @@ My goal was to have the clock start and get internet time for my local time zone
 There's a spare space on the left end of the hours row, so I've used an LED there to signal status:
 * Steady = power connected
 * Blinking = network connected
-
-I've tested the code as far as I'm able, and think it all works as it should. But I can't actually test the DST switch for quite a while - when it actually happens I'll know if my testing was good enough.
+* No light when the time is displayed
+I've tested the code as far as I'm able, and think it all works as it should. But I can't actually test the Daylight Saving Time switch for quite a while - when it actually happens I'll know if my testing was good enough.
 
 There are some "print" commands commented out. They helped me get everything working properly so I have left them in.
 ### LEDtest.py
