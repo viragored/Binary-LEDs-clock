@@ -21,7 +21,9 @@ There's a spare space on the left end of the hours row, so I've used an LED ther
 * Blinking = network connected
 * No light when the time is displayed
 
-I've tested the code as far as I'm able, and think it all works as it should. But I can't actually test the Daylight Saving Time switch for quite a while - when it  happens I'll know if my testing was good enough. If the clock happens to start up between 00.00 and 03.01, it won't do an update time sync so could miss a Daylight Saving Time change. (If someone would like to kill that bug and send a Pull request, I'd be delighted!)
+I've tested the code as far as I'm able, and think it all works as it should. But I can't actually test the Daylight Saving Time switch for quite a while - when it  happens I'll know if my testing was good enough. 
+
+If the clock happens to start up between 00.00 and 03.01, it won't do an update time sync so could miss a Daylight Saving Time change on that occasion. (If someone would like to kill that bug and send a Pull request, I'd be delighted!)
 
 There are some "print" commands commented out. They helped me get everything working properly so I have left them in.
 ### LEDtest.py
